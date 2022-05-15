@@ -1,4 +1,5 @@
 import './NavBar.css'
+import CartWidget from '../CartWidget/CartWidget';
 
 const NavBar = () => {
     return (
@@ -10,6 +11,7 @@ const NavBar = () => {
                 <a href="javascript:alert('Contact Us was clicked')">Contact Us</a>
                 <a href="javascript:alert('About was clicked')">About Us</a>
             </nav>
+            <CartWidget></CartWidget>
         </>
     )
 }
