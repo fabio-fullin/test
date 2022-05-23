@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <>
             <h1>Super Tienda</h1>
-            <nav id="mynav" styleName="flex-direction: row;" className="nav">
+            <nav id="mynav" style={{flexDirection: 'row'}} className="nav">
                 <button>Home</button>
                 <button>Gallery</button>
                 <button>Contact us</button>
