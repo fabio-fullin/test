@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemCount from './components/ItemCount/ItemCount';
 
 function App() {
   return (
@@ -10,9 +9,7 @@ function App() {
       <div>
         <NavBar></NavBar>
         
-        <ItemListContainer greetings="Hola Amigosss" />
-
-        <ItemCount texto="" />
+        <ItemListContainer greetings="Hola Amigosss"></ItemListContainer>
       </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
